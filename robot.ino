@@ -28,7 +28,7 @@ int VITESSE_MOTEUR_AR = -600;        /*::::::::: vitesse déplacement de la roue
 
 int DISTANCE_EVITEMENT = 12;
 void setup()
-{
+//{
   Serial.begin(9600);
 }
 
@@ -77,5 +77,6 @@ void arret(){
    MOTEUR_AVANT.stop(); // -----------> Moteur à l'Arrêt.
     MOTEUR_ARRIERE.stop(); // -----------> Moteur à l'Arrêt.
 }
+
 
 
