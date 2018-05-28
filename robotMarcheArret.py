@@ -14,3 +14,6 @@ bot = MegaPi()
 bot.start()
 while 1:
    bot.ultrasonicSensorRead(4, read)
+#groupe de CARDON MENU QOQI
+
+
